@@ -5,6 +5,8 @@ Created on Tue Jul 14 17:57:38 2020
 @author: Ravi
 """
 
+# sample update for git testing
+
 # vowels = ['a','e','i','o','u']  (or)
 # vowels = 'aeiou' (or)
 vowels_set = set('aeiou')    
