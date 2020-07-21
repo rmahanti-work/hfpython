@@ -1,0 +1,4 @@
+ImmutableMultiDict([('phrase', 'Ravi kUmar mahanti'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36|{'i', 'a'}
+ImmutableMultiDict([('phrase', 'Surya Kanthi Shinagam'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36|{'u', 'i', 'a'}
+ImmutableMultiDict([('phrase', 'jing bang jing bang'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36|{'i', 'a'}
+ImmutableMultiDict([('phrase', 'Abhiram mAHANTI'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36|{'i', 'a'}
