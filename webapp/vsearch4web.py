@@ -24,15 +24,20 @@ def log_request(req: 'flask_request', res:str) -> None:
         print(req.form, req.remote_addr, req.user_agent, res, file=logfile, sep='|')
 
 @app.route('/viewlog')
-def view_the_log() -> str:
+def view_the_log() -> 'html':
     '''this method displays the log file'''
+    title = 'View Log'
+    tabletitles = ['Form Data', 'Remote_addr', 'User_agent', 'Results']
     with open('vsearch.log') as logfile:
         contents = []
         for line in logfile:
             contents.append([])
             for item in line.split('|'):
                 contents[-1].append(escape(item))
-    return str(contents)
+    return render_template('viewlog.html',
+                the_title=title,
+                the_row_titles=tabletitles,
+                the_data=contents,)
         
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
