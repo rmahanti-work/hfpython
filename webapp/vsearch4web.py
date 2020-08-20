@@ -58,7 +58,7 @@ def log_request(req: 'flask_request', res:str) -> None:
 # =============================================================================
 
 @app.route('/viewlog')
-def view_db_log() -> str:
+def view_the_log() -> 'html':
     '''this method displays the log file'''
     _SQL = """select * from log"""
     dbconfig = { 'host': '127.0.0.1',
